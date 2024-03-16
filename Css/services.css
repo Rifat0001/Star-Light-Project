@@ -1,0 +1,85 @@
+.service-page {
+    max-width: 1200px;
+}
+
+.additional-content {
+    display: none;
+    /* Initially hide the additional content */
+}
+
+.booking-online {
+    background-color: #e0e0e0;
+
+}
+
+.contact-info {
+    background-color: #F9FCFF;
+}
+
+.book-head {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contact-info-text a {
+    text-decoration: none;
+    color: #000404;
+    font-weight: 300;
+}
+
+.booking-form,
+.select-field {
+    padding: 10px;
+    color: #444244;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.booking-form {
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid black;
+}
+
+.booking-form:focus {
+    border: none !important;
+    /* Border color when focused */
+    /* Add other styling properties as needed */
+}
+
+
+.select-field {
+    padding-right: 40px;
+    /* Adjust padding-right as needed */
+    border: 1px solid black;
+    /* Border color */
+    /* Border radius */
+    cursor: pointer;
+    appearance: none;
+    /* Hide default arrow */
+    -webkit-appearance: none;
+    /* Hide default arrow for webkit browsers */
+    -moz-appearance: none;
+    /* Hide default arrow for firefox */
+    background-color: #fff;
+    /* Background color */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="%23000000"><path d="M5.292 8.793c-.39.39-1.024.39-1.414 0L.293 5.707c-.39-.39-.39-1.024 0-1.414.39-.39 1.024-.39 1.414 0L5 6.879l3.293-3.586c.39-.39 1.024-.39 1.414 0 .39.39.39 1.024 0 1.414l-4 4.086z"/></svg>');
+    /* Custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    /* Adjust position of the arrow */
+    padding-right: 10px;
+    /* Adjust additional padding right */
+}
+
+
+@media (max-width: 768px) {
+    .book-head {
+        font-size: 36px;
+    }
+
+    .booking-form,
+    .select-field {
+        padding: 8px;
+    }
+}

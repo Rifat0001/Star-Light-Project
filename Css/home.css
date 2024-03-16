@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+h1 {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.logo {
+    max-width: 170px;
+}
+
+/* Hero sections design  */
+/* Custom CSS for active nav link */
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #FF006D;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FF006D;
+}
+
+
+.navbar {
+    max-width: 1270px;
+    background-color: #F9FCFF;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #FF006D !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-primary {
+    --bs-text-opacity: 1;
+    background-color: #FF006D !important;
+}
+
+.hero-section {
+    background: linear-gradient(0deg, rgba(217, 217, 217, 0.1), rgba(158, 158, 158, 0.3)), url('../image/HomeBackground.webp');
+    background-size: cover;
+    background-size: cover;
+    /* Ensure the background image covers the entire section */
+    background-position: center;
+    /* Center the background image */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.hero-texts {
+    display: flex;
+    align-content: center;
+    height: 100vh;
+}
+
+.heading {
+    font-size: 60px;
+    padding: 0 4rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 17px;
+    color: #000404;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 6rem;
+}
+
+.primary-button {
+    background-color: #FF006D;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 11px 22px;
+}
+
+.primary-button:hover {
+    background-color: white;
+    color: #FF006D;
+    border: 1px solid#FF006D;
+
+}
+
+.secondary-button {
+    color: #FF006D;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 1px solid #FF006D;
+    padding: 11px 22px;
+}
+
+.secondary-button:hover {
+    color: white;
+    background-color: #FF006D;
+
+}
+
+
+/* service section design  */
+
+.services-section {
+    background-color: #e0e0e0;
+}
+
+.fs-lg-2 {
+    font-size: 20px;
+}
+
+.fs-lg-1 {
+    font-size: 24px;
+}
+
+.fs-lg-3 {
+    font-size: 20px;
+}
+
+.service-section-header {
+    font-size: 19px;
+    color: #444224;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.service-section-text {
+    font-size: 20px;
+    color: #000404;
+    font-weight: 400;
+}
+
+/* about section design  */
+.divider {
+    width: 20%;
+    height: 3px;
+    background-color: #000 !important;
+}
+
+.about-section {
+    overflow: hidden;
+}
+
+/* careers section  */
+.careers-section {
+    background-color: #e0e0e0;
+}
+
+.w-70 {
+    max-width: 1100px;
+}
+
+/* contact section  */
+.form-section {
+    background-color: #F9FCFF;
+    width: 50%;
+}
+
+.input-form {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #444244;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #FF006D;
+    background-color: white;
+}
+
+.input-form:focus {
+    border: none !important;
+    /* Border color when focused */
+    /* Add other styling properties as needed */
+}
+
+/* input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input:focus {
+    border: 3px solid red;
+  } */
+
+.form-label {
+
+    font-size: 16px;
+    color: var(--bs-primary);
+}
+
+/* footer section  */
+.footer-home {
+    background-color: #F9FCFF;
+}
+
+.footer-logo {
+    object-fit: contain;
+    max-width: 165px;
+    min-height: 68px;
+    max-height: 85px;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+
+/* Adjustments for mobile */
+@media (max-width: 768px) {
+    .navbar {
+        max-width: auto;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-brand img {
+        max-width: 160px;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        /* Fixed position for the dropdown menu */
+        top: 80px;
+        /* Adjust as needed based on your navbar height */
+        left: 0;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        right: 0;
+        bottom: auto;
+        background-color: #fff;
+        /* Optional: Adjust background color */
+        z-index: 1000;
+        /* Ensure dropdown appears above other content */
+        overflow-y: auto;
+        /* Enable vertical scrolling if needed */
+    }
+
+    /* for hero section  */
+
+    .heading {
+        font-size: 36px;
+        padding: 0 1rem;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .mobile-image {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 1rem;
+        color: #000404;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .hero-texts {
+        height: 60vh;
+    }
+
+    .fs-sm-4 {
+        font-size: 14px;
+    }
+
+    .fs-sm-1 {
+        font-size: 18px;
+    }
+
+    .fs-sm-3 {
+        font-size: 14px;
+    }
+
+    .service-section-header {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .service-section-text {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1;
+        margin: 0 10px 30px 10px;
+    }
+
+    /* about section  */
+    .about-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-section .row>div {
+        order: 2;
+    }
+
+    .about-section .row>div:nth-child(2) {
+        order: 1;
+    }
+
+    /* careers section  */
+    .w-70 {
+        max-width: auto;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+}

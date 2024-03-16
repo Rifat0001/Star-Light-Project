@@ -1,0 +1,25 @@
+.slider-section {
+    max-width: 1200px;
+}
+
+.team-section {
+    width: 1200px;
+}
+
+.social {
+    width: 15px;
+}
+
+.team-section-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .team-section {
+        max-width: auto;
+    }
+    .team-section-text {
+        font-size: 14px;
+    }
+}
